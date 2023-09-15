@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style for the header */
+header {
+    position: relative;
+    background-image: url('img1.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color for navigation links and header text */
+    height: 100vh; /* Set header height to 100% of viewport height */
+}
+
+/* Style for the white box at the top with navigation links */
+.white-box {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the navigation bar */
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style for the centered "LOREM IPSUM" heading */
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 100px; /* Adjust the left value to move it more to the right */
+    transform: translateY(-50%);
+    text-align: left; /* Align text to the left */
+    color: #fff; /* Text color for the "LOREM IPSUM" heading */
+}
+
+/* Style for the container box */
+.content-box {
+    background-color: rgba(240, 20, 90, 0.5); /* Transparent orange background color */
+    padding: 20px;
+    }
+
+/* Style for the paragraph text */
+.centered-text p {
+    font-size: 18px; /* Adjust the font size for the paragraph text */
+}
+
+/* Style for the header text (LOREM IPSUM) */
+.header-text {
+    font-size: 36px; /* Adjust the font size to reduce the heading size */
+    font-weight: bold; /* Make the text bold */
+}
+/* Add this CSS to your styles.css file */
+html {
+    scroll-behavior: smooth;
+}
+/* Style for Page 2 background */
+#page2 {
+    background: linear-gradient(to bottom, pink,orange, yellow);
+    color: #333; /* Text color on the pink and yellow background */
+    padding: 50px; /* Add padding to your content as needed */
+}
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

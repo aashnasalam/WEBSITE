@@ -1,0 +1,68 @@
+/* Style for the full-page background */
+.full-page {
+    background: linear-gradient(to bottom, pink, orange, yellow);
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align content at the top vertically */
+    align-items: center; /* Center horizontally */
+    color: #fff;
+    text-align: center;
+}
+
+/* Style for the "Order Now" heading */
+.center-heading {
+    padding: 20px 0;
+}
+
+/* Style for card container */
+.card-container {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Adjust spacing between cards */
+}
+
+/* Style for individual cards */
+.card {
+    width: 200px;
+    height: 300px; /* Set a fixed height for cards */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff; /* Card background color */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Place content at top and bottom */
+}
+
+/* Style for card images */
+.card img {
+    max-width: 100%;
+    max-height: 100%; /* Ensure the image fits within the card */
+}
+
+/* Style for card headings in black */
+.card .black-heading {
+    color: black; /* Set the text color to black */
+}
+
+/* Style for card descriptions as paragraphs */
+.card .description {
+    margin: 10px 0;
+    color: black; /* Set the text color to black */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
